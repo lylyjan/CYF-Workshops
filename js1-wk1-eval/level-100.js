@@ -7,3 +7,7 @@
 // c) 67 plus 100
 
 // Write your answers below:
+
+560
+8.42
+167
