@@ -1,5 +1,5 @@
 // Predict and explain...
-// What will happen when this program is run?
+// What will happen when this program is run? it will create a recipe for bpeople, depending on if the yare veggie it adds chicken
 // Check your prediction and explanation by running the program.
 // Fix anything that needs fixing.
 

@@ -17,11 +17,12 @@ people.push({
     "favourite_food": "macarons",
 });
 
-const favouriteFoods = [];
+const favouriteFoods = [people[0].favourite_food, people[1].favourite_food, people[2].favourite_food, ];
 
 // TODO: Fill the array favouriteFoods with the favourite foods of each person.
 // You must not type the strings (i.e. your solution should not involve you typing the word "salad").
 
+console.log(favouriteFoods)
 console.assert(favouriteFoods.length === 3);
 console.assert(favouriteFoods.includes("salad"));
 console.assert(favouriteFoods.includes("mango"));
