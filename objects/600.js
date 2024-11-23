@@ -9,8 +9,8 @@ const person = {
     "favourite_topping": "marshmallows",
 };
 
-function assertFieldEquals(object, field, targetValue) {
-    console.assert(object.field === targetValue);
+function assertFieldEquals(object, key, targetValue) {
+    console.assert(object[key] === targetValue);
 }
 
 assertFieldEquals(person, "favourite_ice_cream", "vanilla");

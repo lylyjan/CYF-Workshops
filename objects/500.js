@@ -23,7 +23,9 @@ const favouriteFoods = [people[0].favourite_food, people[1].favourite_food, peop
 // You must not type the strings (i.e. your solution should not involve you typing the word "salad").
 
 console.log(favouriteFoods)
-console.assert(favouriteFoods.length === 3);
-console.assert(favouriteFoods.includes("salad"));
-console.assert(favouriteFoods.includes("mango"));
-console.assert(favouriteFoods.includes("macarons"));
+
+//now to assert
+console.assert(favouriteFoods.length === 3);//true
+console.assert(favouriteFoods.includes("salad")); //true
+console.assert(favouriteFoods.includes("mango"));//true
+console.assert(favouriteFoods.includes("macarons"));//true
