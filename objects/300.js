@@ -20,5 +20,5 @@ const sayed = {
     "focus": "SQL",
 }
 
-console.assert(checkLivesNearCYF(mo));
-console.assert(!checkLivesNearCYF(sayed));
+console.assert(checkLivesNearCYF(mo));// true
+console.assert(!checkLivesNearCYF(sayed));// false
