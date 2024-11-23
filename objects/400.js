@@ -17,7 +17,7 @@ function printSaladRecipe(forPerson) {
     };
 
     if (forPerson.eatsMeat) {
-        saladRecipe.push("chicken");
+        saladRecipe.ingredients.push("chicken");// saladRecipe.push is not a function we need to refer to array that has ingredients
         saladRecipe.steps.push("Mix in the chicken");
     }
 
